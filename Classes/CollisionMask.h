@@ -1,0 +1,11 @@
+#ifndef __COLLISION_MASK_HPP__
+#define __COLLISION_MASK_HPP__
+
+enum COLLISION_BITMASK_t
+{    
+    COLLISION_BARRIER = 1,
+    COLLISION_CHECKPOINT = 2,
+    COLLISION_HERO = 4
+};
+
+#endif
